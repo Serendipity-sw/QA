@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
 
@@ -19,23 +18,35 @@
         <a href="javascript:void(0);">注册</a><a href="javascript:void(0);">登录</a>
     </div>
     <div class="courseList">
-        <span class="left">在线答疑</span>>><span class="registered">登陆</span>
+        <span class="left">在线答疑</span>>><span class="registered">注册</span>
     </div>
     <div class="tableListHead">
-        <span class="left">登陆</span>
+        <span class="left">注册</span>
     </div>
     <div class="tableHead">
         <div class="head">
             <span class="title">基本信息(*为必填项)</span>
         </div>
         <div class="rows">
-            <span class="left">用户名:</span><input type="text" name="userName" class="textBox"/><a href="Registered.cshtml">立即注册</a>
+            <span class="left">用户名:</span><input type="text" name="userName" class="textBox" />
         </div>
         <div class="rows">
             <span class="left">密码:</span><input type="text" name="passWord" class="textBox" />
         </div>
+        <div class="rows">
+            <span class="left">确认密码:</span><input type="text" name="sendPassWord" class="textBox" />
+        </div>
+        <div class="rows">
+            <span class="left">性别:</span><select name="sex" class="textBoxs">
+                <option name="0">男</option>
+                <option name="1">女</option>
+            </select>
+        </div>
+        <div class="rows">
+            <span class="left">电子邮件:</span><input type="text" name="email" class="textBox" />
+        </div>
         <div class="bottomButton">
-            <a href="javascript:void(0);">登陆</a>
+            <a href="javascript:void(0);">注册</a>
         </div>
     </div>
     <div class="bottom">

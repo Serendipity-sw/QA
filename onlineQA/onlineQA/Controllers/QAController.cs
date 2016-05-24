@@ -13,5 +13,14 @@ namespace onlineQA.Controllers
         {
             return View();
         }
+
+        public ActionResult userInfo()
+        {
+            return View();
+        }
+        public ActionResult updatePassWord()
+        {
+            return View();
+        }
     }
 }

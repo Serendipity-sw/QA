@@ -83,6 +83,7 @@
   <ItemGroup>
     <Content Include="content\base.css" />
     <Content Include="content\Index.css" />
+    <Content Include="content\login.css" />
     <Content Include="content\lib\images\loading.gif" />
     <Content Include="content\lib\images\top.jpg" />
     <Content Include="content\lib\images\topicon.gif" />
@@ -523,6 +524,9 @@
     <Content Include="content\lib\ligerUI\skins\Tab\images\win\dialog-winbtns.gif" />
     <Content Include="content\lib\ligerUI\skins\Tab\images\win\dialogbtn.gif" />
     <Content Include="content\lib\ligerUI\skins\Tab\images\win\dialogicon.gif" />
+    <Content Include="content\registered.css" />
+    <Content Include="content\updatePassWord.css" />
+    <Content Include="content\userInfo.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -541,6 +545,9 @@
     <Content Include="packages.config" />
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\QA\Index.cshtml" />
+    <Content Include="Views\Home\Registered.cshtml" />
+    <Content Include="Views\QA\userInfo.cshtml" />
+    <Content Include="Views\QA\updatePassWord.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

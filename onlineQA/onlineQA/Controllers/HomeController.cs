@@ -17,5 +17,14 @@ namespace onlineQA.Controllers
             return View();
         }
 
+        /// <summary>
+        /// 注册
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Registered()
+        {
+            return View();
+        }
+
     }
 }
